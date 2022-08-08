@@ -2,6 +2,7 @@
 import './App.css';
 import User from './User'
 import Sourav from './Sourav'
+import Form from './Form';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <h1>Hello Sourav</h1>
       <User />
       <Sourav />
+      <Form />
     </div>
   );
 }
