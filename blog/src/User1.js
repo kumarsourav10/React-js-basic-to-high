@@ -4,7 +4,7 @@ export default class User extends Component
     render()
     {
         return(
-            <h1>Hello Sourav</h1>
+            <h1>Hello Sourav</h1>  
         )
     }
 }

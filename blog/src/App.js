@@ -4,6 +4,7 @@ import User from './User'
 import Sourav from './Sourav'
 import Form from './Form';
 import User1 from './User1';
+import Check from './Check';
 function App() {
 
   function Apple() 
@@ -17,7 +18,8 @@ function App() {
       <Sourav />
       <Form />
       <User1 />
-      {Apple ()}
+      <Apple />
+      <Check />
     </div>
   );
 }
