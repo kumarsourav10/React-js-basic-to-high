@@ -5,6 +5,7 @@ import Sourav from './Sourav'
 import Form from './Form';
 import User1 from './User1';
 import Check from './Check';
+import Jsx from './Jsx';
 function App() {
 
   function Apple() 
@@ -20,6 +21,7 @@ function App() {
       <User1 />
       <Apple />
       <Check />
+      <Jsx />
     </div>
   );
 }
