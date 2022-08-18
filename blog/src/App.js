@@ -3,10 +3,10 @@ import {useState} from 'react'
 import './App.css';
 
 function App() {
-const [data,setData]=useState("Sourav")
+const [data,setData]=useState(0)
 function updateData()
 {
-  setData("Pandit")
+  setData(data+1)
 }
 console.warn("_________")
   return (
