@@ -5,8 +5,7 @@ function Student(props)
     return(
     <div style={{backgroundColor: "skyblue"}}>
         <h1>Name :{props.name}</h1>
-        <h2>Address : {props.address}</h2>
-        <h3>Email : {props.email}</h3>
+       
     </div>
     )
 } 
