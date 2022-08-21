@@ -1,8 +1,20 @@
-// function Sourav()
-// {
-//     return(
-//         <h1>This is I am prectising to import Component's</h1>
-//     )
-// }
+import React,{useState} from 'react';
 
-// export default Sourav;
+function Sourav() {
+    const[data, setData] = useState("Sourav")
+    function updateData() {
+        setData ({data:"Pandit"})
+        alert(data)
+    }
+      
+  return (
+    <div>
+        <h1>
+            {data}
+        </h1>
+        <button onClick={updateData}>Update Data</button>
+    </div>
+  )
+}
+
+export default Sourav;
