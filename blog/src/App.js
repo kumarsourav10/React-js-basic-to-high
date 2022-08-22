@@ -7,6 +7,7 @@ import Anil from './Anil';
 import Prec from './Prec';
 import Suraj from './Suraj';
 import Babita from './Babita';
+import Butun from './Class';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
      <Prec />
      <Suraj />
      <Babita />
+     <Butun />
      
      {Apple()}
           
