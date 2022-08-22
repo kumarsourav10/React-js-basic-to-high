@@ -3,6 +3,8 @@ import React,{useState} from 'react'
 import './App.css';
 import Sourav from './Sourav';
 import Student from './Student';
+import Anil from './Anil';
+
 
 
 function App() {
@@ -15,6 +17,7 @@ function App() {
       {/* <Student name={"Sourav"} email="Sourav@test.com" address="Delhi"/>
       <Student name={"Akshay"} email="Akshay@test.com"  address="up"/> */}
      <Sourav />
+     <Anil />
      
     </div>
   )
