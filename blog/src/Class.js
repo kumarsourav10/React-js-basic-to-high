@@ -1,13 +1,16 @@
-import React,{Component} from 'react'
+import React from 'react'
 
-export default class Butun extends Component
-{
+export default class Butun extends React.Component{
+
+   
   render()
   {
+    console.log(this.props)
     return(
-            <h1>
-                I am Butun
-            </h1>
+      <div style={{backgroundColor:"skyblue", margin:20}}>
+      <h1>{this.props.name}</h1>
+      <h3>{this.props.email}</h3>
+      </div>
     )
   }
 }
