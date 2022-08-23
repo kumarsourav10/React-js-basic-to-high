@@ -1,15 +1,15 @@
-// import React,{Component} from 'react';
-// export default class Check extends Component 
+import React,{Component} from 'react';
+export default class Check extends Component 
 
-// {
-//     render()
-//     {
-//         return (
-//             <h1>
+{
+    render()
+    {
+        return (
+            <h1>
                 
-//                 This is class Component 
+                This is class Component 
 
-//             </h1>
-//         )
-//     }
-// }
+            </h1>
+        )
+    }
+}
