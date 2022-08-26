@@ -1,31 +1,25 @@
-// import logo from './logo.svg';
 import './App.css'
 import Butun from './Class'
-import React from 'react'
-import GetInpu from './GetInpu';
+import GetInpu from '../src/Component/Getinput/GetInpu';
+import Mob from '../src/Component/Getinput/Mob';
+import Lap from './Component/Getinput/Lap';
+import Map from './Component/Getinput/Map';
+import Sou from './Component/Getinput/Sou';
 
-class App extends React.Component {
-     constructor()
-    {
-      super();
-      
-        this.state={
-          name:"Veena Devi"
-        }
-      
-    }
-    render()
-    { 
-        return (
-          <div className='App'>
-      <h1>Props</h1>
-      <Butun name={this.state.name} email="Priyanshu@gmail.com"></Butun>
-      <GetInpu />
-      <button onClick={()=>this.setState({name:"Beena Devi"})}>Update Name</button>
+
+function App() {
+  return (
+    <div className='App'>
+      <h1>Hello World !</h1>
+
+  <Butun />
+  <GetInpu />
+  <Mob />
+  <Lap />
+  <Map />
+  <Sou />
     </div>
-           );
-          }
-        }
-        
+  )
+}
 
 export default App
