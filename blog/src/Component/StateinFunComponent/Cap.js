@@ -1,12 +1,11 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
-function Sourav() {
-  const [data, setData] = useState("Sourav");
+function Cap() {
+  const [data, SetData] = useState("Sourav");
   function updateData() {
-    setData({ data: "Pandit" });
+    SetData("Pandit" );
     alert(data);
   }
-
   return (
     <div>
       <h1>{data}</h1>
@@ -15,4 +14,4 @@ function Sourav() {
   );
 }
 
-export default Sourav;
+export default Cap;
