@@ -18,19 +18,32 @@ import './App.css'
 // import Bam from './Component/Hideandshowtoogle/Bam';
 // import New from './Component/HandleForm/New';
 // import Kis from './Component/Ifelsecondition/Kis';
-import Mob from './Component/Ifelsecondition/Mob'
+// import Mob from './Component/Ifelsecondition/Mob'
+// import Bos from './Component/BasicFormValidation/Bos'
+// import Boo from './Component/Hideandshowtoogle/Boo'
+// import Dan from './Component/Hideandshowtoogle/Dan'
+// import Wao from './Component/StateinFunComponent/Wao'
+// import Flu from './Component/StateinClassComponent/Flu'
+import Login from './Component/Form_Validation/Login'
 
 function App() {
   return (
     <div className='App'>
       <h1>This is Heading</h1>
 
+
+      <Login />
+
   {/* <Bam />
   <Ev />
   <New />
   <Kis /> */}
-  <Mob />
-
+  {/* <Mob /> */}
+  {/* <Bos /> */}
+  {/* <Boo /> */}
+  {/* <Dan />
+  <Wao /> */}
+  {/* <Flu /> */}
   {/* <Joo />
   <Cha />
   <Lavra />
