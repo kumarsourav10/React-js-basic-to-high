@@ -24,16 +24,24 @@ import './App.css'
 // import Dan from './Component/Hideandshowtoogle/Dan'
 // import Wao from './Component/StateinFunComponent/Wao'
 // import Flu from './Component/StateinClassComponent/Flu'
-import Login from './Component/Form_Validation/Login'
+// import Login from './Component/Form_Validation/Login'
+import Pile from './Component/PassFunctionasProp/Pile'
 
 function App() {
+  function getData()
+  {
+    alert("This is my alert")
+  }
   return (
-    <div className='App'>
-      <h1>This is Heading</h1>
-
-
-      <Login />
-
+    <div className='App'> 
+      {/* <Login /> */}
+      <Pile data={getData}/> 
+      <Pile data={getData}/> 
+      <Pile data={getData}/> 
+      <Pile data={getData}/> 
+      <div style={{float: 'right', border: "2px solid black"}}>
+        <Pile data= {getData} />
+      </div>
   {/* <Bam />
   <Ev />
   <New />
